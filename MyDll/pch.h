@@ -9,5 +9,7 @@
 
 // 添加要在此处预编译的标头
 #include "framework.h"
+//新增；频繁引用的头文件放在此处，进行预编译，可减少编译时间
+#include "DLLDef.h"
 
 #endif //PCH_H
