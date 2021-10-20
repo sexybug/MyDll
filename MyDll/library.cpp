@@ -5,6 +5,7 @@
 #include "library.h"
 #include <iostream>
 
-void hello() {
+//在VC++中，调用约定是函数类型的一部分，因此函数的声明和定义处调用约定要相同，不能只在声明处有调用约定，而定义处没有或与声明不同。
+void DLL_CALL hello() {
 	std::cout << "Hello World!\n";
 }
